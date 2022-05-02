@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #9792E4;
+}
+
+.section {
+    /* SOLO PER DEBUG */
+    padding: 2rem;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+    /* SOLO PER DEBUG */
+    padding: 2rem;
+    border: 1px dashed red;
+}
+
+.bg-primary {
+    background-color: var(--color-primary);
+}
