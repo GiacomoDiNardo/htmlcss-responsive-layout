@@ -6,6 +6,12 @@
 
 :root {
     --color-primary: #9792E4;
+    --color-secondary: #0084FD;
+    --color-secondary-light: #B5DDFF;
+}
+
+nav {
+    background-color: var(--color-secondary);
 }
 
 .section {
@@ -14,11 +20,38 @@
 }
 
 .container {
-    width: 980px;
+    width: 960px;
     margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
     /* SOLO PER DEBUG */
-    padding: 2rem;
     border: 1px dashed red;
+}
+
+.nav-row {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.nav-button {
+    background-color: white;
+    border-radius: 30px;
+}
+
+.nav-button a {
+    color: black;
+    display: inline-block;
+}
+
+.justify-between {
+    justify-content: space-between;
 }
 
 .bg-primary {
@@ -41,14 +74,43 @@
 }
 
 .col-2 {
-    flex-basis: calc((100% / 3) * 2 - 1rem);
+    flex-basis: calc(((100% / 3) - 1rem) * 2);
 }
 
 .card {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     /* SOLO DEBUG */
     min-height: 100px;
     background-color: red;
     border-radius: 20px;
+}
+
+.bg-secondary-light {
+    background-color: var(--color-secondary-light);
+}
+
+.col img {
+    width: 70%;
+}
+
+.col h3 {
+    color: var(--color-secondary);
+    padding-bottom: 2rem;
+}
+
+.col p {
+    padding-bottom: 2rem;
+}
+
+.col .button a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    background-color: var(--color-secondary);
+    border-radius: 30px;
 }
 
 .card2 {
@@ -56,4 +118,11 @@
     min-height: 100px;
     background-color: blue;
     border-radius: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: calc(768px - 2rem);
+    }
+    
 }
