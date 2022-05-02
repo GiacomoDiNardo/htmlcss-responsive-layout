@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>Responsive layout</title>
 </head>
 <body>
@@ -38,8 +39,11 @@
                             <div class="nav-link nav-button">
                                 <a href="#">Get Started</a>
                             </div>
-
                         </div>
+                    </div>
+
+                    <div class="ham-menu">
+                        <i class="fa-solid fa-bars"></i>
                     </div>
                 </div>
             </div>
@@ -51,42 +55,84 @@
         <div class="section">
             <div class="container">
                 <div class="row">
-                    <div class="col col-2">
-                        <div class="card bg-secondary-light">
+                    <div class=" col col-2 col-sm-full">
+                        <div class="card bg-secondary-light p-relative extra-card-padding">
                             <div class="row">
-                                <div class="col">
+                                <div class="col-2 col-md-full">
                                     <h3>Get a demo application</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur
                                         adipisicing elit. Ratione nobis, architecto ad
                                         dolore quod, facere totam quas recusandae
-                                        blanditiis.</p>
+                                        blanditiis.
+                                    </p>
 
-                                    <div class="button">
+                                    <div class="btn btn-bg-secondary">
                                         <a href="#">App Store</a>
                                     </div>
                                 </div>
 
-                                <div class="col">
-                                    <img src="img/phone.png" alt="">
+                                <div class="col-1 col-md-full extra-padding">
+                                    <img class="position-image" src="img/phone.png" alt="">
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col col-1">
-                        <div class="card bg-secondary-light"></div>
+                    <div class="col col-1 col-sm-full">
+                        <div class="card bg-secondary-light center-txt extra-card-padding">
+                            <i class="fa-solid fa-file-code"></i>
+                            <h3>Clean code</h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Ratione nobis, architecto ad
+                                dolore quod, facere totam quas recusandae
+                                blanditiis.
+                            </p>
+                        </div>
                     </div>
 
-                    <div class="col col-1">
-                        <div class="card bg-secondary-light"></div>
+                    <div class="col col-1 col-sm-full">
+                        <div class="card bg-secondary-light center-txt extra-card-padding">
+                            <i class="fa-solid fa-compass-drafting"></i>
+                            <h3>Web Design</h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Ratione nobis, architecto ad
+                                dolore quod, facere totam quas recusandae
+                                blanditiis.
+                            </p>
+                        </div>
                     </div>
 
-                    <div class="col col-1">
-                        <div class="card bg-secondary-light"></div>
+                    <div class="col col-1 col-sm-full">
+                        <div class="card bg-secondary-light center-txt extra-card-padding">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h3>Development</h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Ratione nobis, architecto ad
+                                dolore quod, facere totam quas recusandae
+                                blanditiis.
+                            </p>
+                        </div>
                     </div>
 
-                    <div class="col col-1">
-                        <div class="card bg-secondary-light"></div>
+                    <div class="col col-1 col-sm-full">
+                        <div class="card bg-secondary-light center-txt extra-card-padding">
+                            <i class="fa-solid fa-bullhorn"></i>
+                            <h3>Development</h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Ratione nobis, architecto ad
+                                dolore quod, facere totam quas recusandae
+                                blanditiis.
+                            </p>
+                        </div>
                     </div>
 
                 </div>
@@ -97,11 +143,38 @@
         <div class="section bg-primary">
             <div class="container">
                 <div class="row">
-                    <div class="col">
-                        <div class="card"></div>
+                    <div class="col col-txt-white col-md-full">
+                        <div class="card center-txt">
+                            <img src="img/planning1.png" alt="">
+                            <h3>Strategic Planning</h3>
+
+                            <p>
+                                Egestas dui id ornare arcu odio. In tellus integer feugiat
+                                scelerisque varius morbi enim nunc. Habitasse platea
+                                dictumst quisque sagittis. Interdum velit euismod in
+                                pellentesque massa placerat duis. Quis viverra nibh cras
+                                pulvinar mattis.
+                            </p>
+                        </div>
                     </div>
-                    <div class="col">
-                        <div class="card"></div>
+
+                    <div class="col col-md-full">
+                        <div class="card center-txt card-right bg-tertiary card-right-md">
+                            <img src="img/planning2.png" alt="">
+                            <h3>App Development</h3>
+
+                            <p>
+                                <em>
+                                    Develop an on-demand app for your delivery
+                                    business to reach your targeted customers
+                                    without any interruption.
+                                </em>
+                            </p>
+
+                            <div class="btn round-btn btn-bg-primary">
+                                <i class="fa-solid fa-arrow-down-long"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -109,29 +182,48 @@
 
         <!-- section bianca - Testimonials -->
         <div class="section">
-            <div class="container"></div>
+            <div class="container">
+                <div class="section-presentation">
+                    <span>TESTIMONIALS</span>
+                
+                    <h2>We are committed expert partenrs</h2>
+
+                    <p>We place huge value on strong relationship and have seen the benefit they bring to our business. Customer feedback in vital in helping us to get it right.</p>
+                </div>
+                
+                <div class="card column-card bg-primary">
+                    <img src="img/testimonial1.jpg" alt="">
+
+                    
+                </div>
+
+                <div class="card column-card bg-primary"></div>
+
+                <div class="card column-card bg-primary"></div>
+
+            </div>
         </div>
 
         <!-- section viola - Benefit -->
         <div class="section bg-primary">
             <div class="container">
                 <div class="row">
-                    <div class="col-1">
+                    <div class="col-1 col-md-half col-sm-full">
                         <div class="card"></div>
                     </div>
-                    <div class="col-1">
+                    <div class="col-1 col-md-half col-sm-full">
                         <div class="card"></div>
                     </div>
-                    <div class="col-1">
+                    <div class="col-1 col-md-half col-sm-full">
                         <div class="card"></div>
                     </div>
-                    <div class="col-1">
+                    <div class="col-1 col-md-half col-sm-full">
                         <div class="card"></div>
                     </div>
-                    <div class="col-1">
+                    <div class="col-1 col-md-half col-sm-full">
                         <div class="card"></div>
                     </div>
-                    <div class="col-1">
+                    <div class="col-1 col-md-half col-sm-full">
                         <div class="card"></div>
                     </div>
                 </div>
@@ -142,11 +234,11 @@
         <div class="section">
             <div class="container">
                 <div class="row">
-                    <div class="col-2">
+                    <div class="col-2 col-sm-full">
                         <div class="card"></div>
                     </div>
 
-                    <div class="col-1">
+                    <div class="col-1 col-sm-full">
                         <div class="card"></div>
                     </div>
                 </div>
