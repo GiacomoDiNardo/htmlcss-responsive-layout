@@ -149,14 +149,16 @@ nav {
     color: var(--color-secondary);
 }
 
+.align-base {
+    align-items: last baseline;
+}
+
 .center-txt {
     text-align: center;
 }
 
 .card-right {
-    height: 400px;
-    position: relative;
-    top: 100px;
+    height: fit-content;
 }
 
 .card-right img {
@@ -191,9 +193,33 @@ nav {
     padding-bottom: 2rem;
 }
 
-.column-card {
+.horizontal-card {
     margin-bottom: 2rem;
     display: flex;
+    padding: 2rem;
+    align-items: center;
+}
+
+.horizontal-card img {
+    width: 40%;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    margin-right: 2rem;
+}
+
+.testimonial-cit {
+    color: white;
+}
+
+.testimonial-cit p {
+    padding-bottom: 1rem;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.testimonial-cit h4 {
+    font-size: 20px;
 }
 
 
